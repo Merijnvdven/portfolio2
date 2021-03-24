@@ -67,13 +67,49 @@
     background: #ddd; /* Grey background */
   }
 
+ .main_interactievemedia {
+    flex: 70%; /* Set the width of the main content */
+    background-color: white; /* White background color */
+    padding: 20px; /* Some padding */
+  }
 
+  .img-agenda-mockup{
+    width: 200px;
+    height: 400px;
+  }
 
+.img-gps-mockup{
+  width: 200px;
+    height: 400px;}
 
-
-
-  
-
+    .img-inloggen-mockup{
+      width: 200px;
+    height: 400px;
+    }
+.img-innameoverzicht-mockup{
+  width: 200px;
+    height: 400px;
+}
+.img-metingen-mockup{
+  width: 200px;
+    height: 400px;
+}
+.img-instellingen-mockup{
+  width: 200px;
+    height: 400px;
+}
+.img-medicatieoverzicht-mockup{
+  width: 200px;
+    height: 400px;
+}
+  .img-overzichtschermnieuw-mockup{
+    width: 200px;
+    height: 400px;
+  }
+.img-medicatie-mockup{
+  width: 200px;
+    height: 400px;
+}
 
 
 
