@@ -114,22 +114,28 @@
     height: 400px;
 }
 
-
+.main_development h1 {
+  text-align: center;
+}
 
 .main_aboutme{
   flex: 70%; /* Set the width of the main content */
     background-color: white; /* White background color */
     padding: 20px; /* Some padding */
-    text-align: center;
+    
 }
-
+.main_aboutme h2 {
+  text-align: center;
+}
 .main_aboutme h3{
   font-weight: normal;
+  text-align: initial;
 }
 
 .img-profielfoto {
   width: 226px;
   height: 381px;
+ 
 }
 
 .side {
@@ -149,7 +155,7 @@
   flex: 70%; /* Set the width of the main content */
   background-color: white; /* White background color */
   padding: 20px; /* Some padding */
-  text-align: center;
+  text-align: left;
 }
 
 .main_development h3 {
@@ -233,4 +239,43 @@ width: 200px;
 .mainnav ul {
 list-style: none;
 padding: 0;
+}
+
+.img-poster{
+  width: 330px;
+  height: 467px;
+}
+
+.main_design h1{
+text-align: center;
+}
+.main_design{
+  flex: 70%; /* Set the width of the main content */
+  background-color: white; /* White background color */
+  padding: 20px; /* Some padding */
+  text-align: left;
+}
+
+.main_design h4{
+  font-weight: normal;
+}
+
+.main_professional_Identity{
+  flex: 70%; /* Set the width of the main content */
+  background-color: white; /* White background color */
+  padding: 20px; /* Some padding */
+  text-align: left;
+}
+
+.main_professional_Identity h1{
+text-align: center;
+}
+
+.img-infographic{
+  width: 715px;
+  height: 384px;
+}
+
+.main_professional_Identity h4{
+  font-weight: normal;
 }
