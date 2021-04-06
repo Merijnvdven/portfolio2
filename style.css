@@ -12,7 +12,7 @@
 
   .navbar {
     overflow: hidden; /* Hide overflow */
-    background-color: #FF7323; /* Dark background color */
+    background-color: black; /* Dark background color */
   }
   
   /* Style the navigation bar links */
@@ -75,7 +75,7 @@
   .main_interactievemedia h4 {
     font-weight: normal;
   }
-
+  
   .img-agenda-mockup{
     width: 200px;
     height: 400px;
@@ -137,7 +137,7 @@
   background-color: #EB3F3F; /* Grey background color */
   padding: 20px; /* Some padding */
   text-decoration: none;
-  color:#ddd;
+  color: grey;
  }
 
 .img-RPS {
@@ -155,4 +155,82 @@
 .main_development h3 {
   font-weight: normal;
   text-align: left;
+}
+
+.img-agenda-mockup2{
+  width: 200px;
+  height: 400px;
+}
+
+.img-gps-mockup2{
+width: 200px;
+  height: 400px;}
+
+  .img-inloggen-mockup2{
+    width: 200px;
+  height: 400px;
+  }
+.img-innameoverzicht-mockup2{
+width: 200px;
+  height: 400px;
+}
+.img-metingen-mockup2{
+width: 200px;
+  height: 400px;
+}
+.img-instellingen-mockup2{
+width: 200px;
+  height: 400px;
+}
+.img-medicatieoverzicht-mockup2{
+width: 200px;
+  height: 400px;
+}
+.img-overzichtschermnieuw-mockup2{
+  width: 200px;
+  height: 400px;
+}
+.img-medicatie-mockup2{
+width: 200px;
+  height: 400px;
+}
+
+.mainnav a:-webkit-any-link, .navbar a:-webkit-any-link  {
+  color: white;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.img-homescreen3 {
+  width: 200px;
+  height: 400px;
+}
+
+.img-metingen3 {
+  width: 200px;
+  height: 400px;
+}
+
+.img-gps3 {
+  width: 200px;
+  height: 400px;
+}
+.img-muziek3{
+  width: 200px;
+  height: 400px;
+}
+
+.img-instellingen3{
+  width: 200px;
+  height: 400px;
+}
+
+.img-login3{
+  width: 200px;
+  height: 400px;
+}
+
+.mainnav ul {
+list-style: none;
+padding: 0;
 }
