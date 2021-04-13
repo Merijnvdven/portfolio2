@@ -69,13 +69,16 @@
     flex: 70%; /* Set the width of the main content */
     background-color: white; /* White background color */
     padding: 20px; /* Some padding */
-    text-align: center;
+    
   }
 
   .main_interactievemedia h4 {
     font-weight: normal;
   }
-  
+
+  .main_interactievemedia h1 {
+    text-align: center;
+  }
   .img-agenda-mockup{
     width: 200px;
     height: 400px;
