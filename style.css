@@ -282,3 +282,18 @@ text-align: center;
 .main_professional_Identity h4{
   font-weight: normal;
 }
+
+.main_research h3{
+  font-weight: normal;
+}
+
+.main_research{
+  flex: 70%; /* Set the width of the main content */
+  background-color: white; /* White background color */
+  padding: 20px; /* Some padding */
+  text-align: left;
+}
+
+.main_research h1{
+  text-align: center;
+}
