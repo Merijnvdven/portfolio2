@@ -23,6 +23,7 @@
     text-align: center; /* Center the text */
     padding: 14px 20px; /* Add some padding */
     text-decoration: none; /* Remove underline */
+    
   }
   
   /* Right-aligned link */
@@ -45,8 +46,11 @@
     display: flex;
     flex-wrap: wrap;
     text-decoration: none;
-    
+   
   }
+
+
+ 
   
   /* Create two unequal columns that sits next to each other */
   /* Sidebar/left column */
@@ -142,13 +146,24 @@
 }
 
 .side {
-  flex: 10%; /* Set the width of the sidebar */
-  background-color: #EB3F3F; /* Grey background color */
-  padding: 20px; /* Some padding */
+  flex: 0.5%; /* Set the width of the sidebar */
+   background-color: #eb3f3f;/* Grey background color */
+  padding: 14px 20px; /* Some padding */
   text-decoration: none;
   color: grey;
  }
-
+.side ul li{
+  padding:15px;
+  border-bottom: 1px solid rgba(0,0,0,0.05);
+  border-top: 1px solid rgba(225,225,225,0.05);
+  display: block;
+}
+.side ul li:hover{
+background: rgb(230, 120, 120);
+}
+.side ul li:hover a{
+color: rgb(138, 11, 11);
+  }
 .img-RPS {
   width: 200px;
   height: 150px;
@@ -297,3 +312,4 @@ text-align: center;
 .main_research h1{
   text-align: center;
 }
+
