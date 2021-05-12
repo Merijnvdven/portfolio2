@@ -83,43 +83,7 @@
   .main_interactievemedia h1 {
     text-align: center;
   }
-  .img-agenda-mockup{
-    width: 200px;
-    height: 400px;
-  }
 
-.img-gps-mockup{
-  width: 200px;
-    height: 400px;}
-
-    .img-inloggen-mockup{
-      width: 200px;
-    height: 400px;
-    }
-.img-innameoverzicht-mockup{
-  width: 200px;
-    height: 400px;
-}
-.img-metingen-mockup{
-  width: 200px;
-    height: 400px;
-}
-.img-instellingen-mockup{
-  width: 200px;
-    height: 400px;
-}
-.img-medicatieoverzicht-mockup{
-  width: 200px;
-    height: 400px;
-}
-  .img-overzichtschermnieuw-mockup{
-    width: 200px;
-    height: 400px;
-  }
-.img-medicatie-mockup{
-  width: 200px;
-    height: 400px;
-}
 
 .main_development h1 {
   text-align: center;
@@ -164,10 +128,6 @@ background: rgb(230, 120, 120);
 .side ul li:hover a{
 color: rgb(138, 11, 11);
   }
-.img-RPS {
-  width: 200px;
-  height: 150px;
-}
 
 .main_development{
   flex: 70%; /* Set the width of the main content */
@@ -181,15 +141,109 @@ color: rgb(138, 11, 11);
   text-align: left;
 }
 
+
+.mainnav a:-webkit-any-link, .navbar a:-webkit-any-link  {
+  color: white;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+
+.mainnav ul {
+list-style: none;
+padding: 0;
+}
+
+.main_design h1{
+text-align: center;
+}
+.main_design{
+  flex: 70%; /* Set the width of the main content */
+  background-color: white; /* White background color */
+  padding: 20px; /* Some padding */
+  text-align: left;
+}
+
+.main_design h4{
+  font-weight: normal;
+}
+
+.main_professional_Identity{
+  flex: 70%; /* Set the width of the main content */
+  background-color: white; /* White background color */
+  padding: 20px; /* Some padding */
+  text-align: left;
+}
+
+.main_professional_Identity h1{
+text-align: center;
+}
+
+
+.main_professional_Identity h4{
+  font-weight: normal;
+}
+
+.main_research h3{
+  font-weight: normal;
+  
+}
+
+.main_research{
+  flex: 70%; /* Set the width of the main content */
+  background-color: white; /* White background color */
+  padding: 20px; /* Some padding */
+  text-align: left;
+}
+
+.main_research h1{
+  text-align: center;
+}
+
+
+
+/*images */
+
+
+.img-infographic{
+  width: 715px;
+  height: 384px;
+}
+.img-poster{
+  width: 330px;
+  height: 467px;
+}
+.img-homescreen3 {
+  width: 200px;
+  height: 400px;
+}
+.img-metingen3 {
+  width: 200px;
+  height: 400px;
+}
+.img-gps3 {
+  width: 200px;
+  height: 400px;
+}
+.img-muziek3{
+  width: 200px;
+  height: 400px;
+}
+.img-instellingen3{
+  width: 200px;
+  height: 400px;
+}
+.img-login3{
+  width: 200px;
+  height: 400px;
+}
 .img-agenda-mockup2{
   width: 200px;
   height: 400px;
 }
-
 .img-gps-mockup2{
 width: 200px;
   height: 400px;}
-
   .img-inloggen-mockup2{
     width: 200px;
   height: 400px;
@@ -218,98 +272,43 @@ width: 200px;
 width: 200px;
   height: 400px;
 }
-
-.mainnav a:-webkit-any-link, .navbar a:-webkit-any-link  {
-  color: white;
-  cursor: pointer;
-  text-decoration: none;
+.img-RPS {
+  width: 200px;
+  height: 150px;
 }
-
-.img-homescreen3 {
+.img-agenda-mockup{
   width: 200px;
   height: 400px;
 }
+.img-gps-mockup{
+width: 200px;
+  height: 400px;}
 
-.img-metingen3 {
+  .img-inloggen-mockup{
+    width: 200px;
+  height: 400px;
+  }
+.img-innameoverzicht-mockup{
+width: 200px;
+  height: 400px;
+}
+.img-metingen-mockup{
+width: 200px;
+  height: 400px;
+}
+.img-instellingen-mockup{
+width: 200px;
+  height: 400px;
+}
+.img-medicatieoverzicht-mockup{
+width: 200px;
+  height: 400px;
+}
+.img-overzichtschermnieuw-mockup{
   width: 200px;
   height: 400px;
 }
-
-.img-gps3 {
-  width: 200px;
+.img-medicatie-mockup{
+width: 200px;
   height: 400px;
 }
-.img-muziek3{
-  width: 200px;
-  height: 400px;
-}
-
-.img-instellingen3{
-  width: 200px;
-  height: 400px;
-}
-
-.img-login3{
-  width: 200px;
-  height: 400px;
-}
-
-.mainnav ul {
-list-style: none;
-padding: 0;
-}
-
-.img-poster{
-  width: 330px;
-  height: 467px;
-}
-
-.main_design h1{
-text-align: center;
-}
-.main_design{
-  flex: 70%; /* Set the width of the main content */
-  background-color: white; /* White background color */
-  padding: 20px; /* Some padding */
-  text-align: left;
-}
-
-.main_design h4{
-  font-weight: normal;
-}
-
-.main_professional_Identity{
-  flex: 70%; /* Set the width of the main content */
-  background-color: white; /* White background color */
-  padding: 20px; /* Some padding */
-  text-align: left;
-}
-
-.main_professional_Identity h1{
-text-align: center;
-}
-
-.img-infographic{
-  width: 715px;
-  height: 384px;
-}
-
-.main_professional_Identity h4{
-  font-weight: normal;
-}
-
-.main_research h3{
-  font-weight: normal;
-}
-
-.main_research{
-  flex: 70%; /* Set the width of the main content */
-  background-color: white; /* White background color */
-  padding: 20px; /* Some padding */
-  text-align: left;
-}
-
-.main_research h1{
-  text-align: center;
-}
-
