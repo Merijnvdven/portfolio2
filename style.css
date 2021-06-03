@@ -49,7 +49,37 @@
    
   }
 
+  .container_int{
+    display: flex;
+  }
 
+.container_dev1{
+  display: flex;
+
+
+  
+}
+.container_dev2{
+  margin-top: 50px;
+}
+.container_dev3{
+  display: flex;
+}
+.container_res1{
+  display: flex;
+}
+.container_res2{
+  margin-top: 50px;
+}
+
+.container_com1{
+  display: flex;
+  margin-right: 50px;
+}
+
+.textblok{
+  margin: 30px;
+}
  
   
   /* Create two unequal columns that sits next to each other */
@@ -229,10 +259,7 @@ padding: 5px 5px;
   font-weight: normal;
 }
 
-.main_research h3{
-  font-weight: normal;
-  
-}
+
 
 .main_research{
   flex: 70%; /* Set the width of the main content */
