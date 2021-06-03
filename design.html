@@ -5,6 +5,7 @@
 <link rel="stylesheet" href="style.css">
 <link rel="preconnect" href="https://fonts.gstatic.com"> 
 <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
@@ -41,20 +42,20 @@ body {
         </ul>
       </nav>
     </div>
-    <div class="main_design">
-
+    <div class="main_design" data-aos="fade-left" data-aos-delay="200" >
+<section class="class"> 
         <h1> Design</h1>
         <h2> logo ontwerp Elly</h2>
-        <img class= img-logo src="img/logo.png" alt="logo Elly">
+        <img class= img-logo src="img/logo.png" alt="logo Elly" data-aos="fade-left" data-aos-delay="200">
         <h3>uitleg</h3>
         <p> We hebben met ons groepje ieder apart een design gemaakt voor een logo van ons "bedrijf". 
           De naam van ons bedrijf is Elly. Het logo moet passen bij een wearable voor demente ouderen. Ik ben zelf op dit logo uitgekomen, omdat ik de kleur blauw vind passen bij technologie.
           Het lettertype dat ik heb gekozen vond ik mooi door de ronding die erin zit (voornamelijk bij de E en L).
         </p>
+      </section>
 
 
-
-
+<section class="class" data-aos="fade-left" data-aos-delay="200">
         <h2> Poster</h2>
         <img class= img-poster src="img/de derde helft goede versie-1.png" alt="poster">
         <h3> Uitleg</h3>
@@ -63,39 +64,57 @@ body {
           Het verhaal gaat over een champions league finale waarbij ik het opneem tegen onder andere Lionel Messi en Christiano Ronaldo.
           En waarbij er na de wedstrijd een biertje kan worden genutigd en wordt genoten van een optreden van Django Wagner.
         </h4>
-
+      </section>
+      <section class="class" data-aos="fade-left" data-aos-delay="200">
         <h2> infographic</h2>
         <img class= img-infographic src="img/infographic goede versie.png" alt="infographic">
-        <h3> Werkwijze</h3>
-        <h4> Deze infographic heb ik gemaakt voor de eerste opdracht van focus module  Storytelling en Gamification.
-          Ik heb hier uiteindelijk verder niks mee gedaan, omdat ik toch heb besloten er niet voor te kiezen om Storytelling en Gamification af te ronden.
-          Zoals je hierboven kunt zien gaat het over 5 grote media-invloeden door de jaren heen. Bij elk plaatje heb ik kort wat informatie erbij gezet.
-          Dit design heb ik gemaakt met Adobe Illustrator.
-        </h4>
-        <h3> Wat heb ik geleerd?</h3>
-        <h4> Ik ben beter geworden in het gebruiken van Adobe Illustrator. <br>
-          In detail is dat vooral teksten positioneren, kleuren veranderen en gebruik maken van verschillende vormen.
-        </h4>
-        <h3> Wat kon beter?</h3>
-        <h4> Om te beginnen de afbeeldingen van de apps zijn niet scherp en sommige achtergronden niet transparant. <br> Dat had ik beter kunnen doen.
-          Verder de bovenste balk met tekst staat niet gecentreerd en daar had ik beter naar moeten kijken.
-        </h4>
         <br> <br>
+        <div class="container_des1">
+          <div class="textblok">
+        <h3> Werkwijze</h3>
+        <p> Deze infographic heb ik gemaakt voor de eerste opdracht van focus module  Storytelling en Gamification.
+          Ik heb hier uiteindelijk verder niks mee gedaan, omdat ik toch heb besloten er niet voor te kiezen om Storytelling en Gamification af te ronden.
+        <br>  Zoals je hierboven kunt zien gaat het over 5 grote media-invloeden door de jaren heen.
+         Bij elk plaatje heb ik kort wat informatie erbij gezet.
+          Dit design heb ik gemaakt met Adobe Illustrator.
+        </p>
+      </div>
+      <div class="textblok">
+        <h3> Wat heb ik geleerd?</h3>
+        <p> Ik ben beter geworden in het gebruiken van Adobe Illustrator. 
+          In detail is dat vooral teksten positioneren, kleuren veranderen en gebruik maken van verschillende vormen.
+        </p>
+      </div>
+      <div class="textblok">
+        <h3> Wat kon beter?</h3>
+        <p> Om te beginnen de afbeeldingen van de apps zijn niet scherp en sommige achtergronden niet transparant.  Dat had ik beter kunnen doen.
+          Verder de bovenste balk met tekst staat niet gecentreerd en daar had ik beter naar moeten kijken.
+        </p>
+      </section>
+      <section class="class" data-aos="fade-left" data-aos-delay="200">
         <h2> Design app Elly</h2>
-        <h3> Ik ben bezig geweest met het design voor de Elly app (app voor dementen en verzorgers). 
+        <p> Ik ben bezig geweest met het design voor de Elly app (app voor dementen en verzorgers). 
           Ik ben onder andere bezig geweest met de instellingen sectie van de app. Hier een paar voorbeelden hoe het eruit is komen te zien
 
-        </h3>
+        </p>
         <img class= img-wijzigdisplay  src="img/wijzig display.png" alt="wijzig-display">
         <img class= img-wijzigontstresser2 src="img/wijzig ontstresser – 2.png" alt="wijzig ontstresser">
         <img class= img-wijzigontstresser4 src="img/wijzig ontstresser – 4.png" alt="wijzig ontstresser4">
         <img class= img-wachtwoord src="img/Wachtwoord – 1.png" alt="wachtwoord">
+      </section>
+    </div>
+    </div>
+       
     </div>
   </div>
 
   <div class="footer">
    
   </div>
-
+  <script src="animate_on_scroll.js"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+      AOS.init();
+    </script>
 </body>
 </html>

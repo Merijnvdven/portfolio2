@@ -59,6 +59,9 @@
 
   
 }
+.container_des1{
+  display: flex;
+}
 .container_dev2{
   margin-top: 50px;
 }
@@ -445,4 +448,23 @@ width: 200px;
 .img-medicatie-mockup{
 width: 200px;
   height: 400px;
+}
+
+.img-wijzigdisplay{
+  width: 200px;
+  height: 400px;
+}
+.img-wijzigontstresser2{
+  width: 200px;
+  height: 400px;
+}
+.img-wijzigontstresser4{
+  width: 200px;
+  height: 400px;
+}
+.img-wachtwoord{
+  
+    width: 200px;
+    height: 400px;
+  
 }
