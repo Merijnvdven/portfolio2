@@ -79,6 +79,10 @@
   display: flex;
   margin-right: 50px;
 }
+.container_com2{
+  display: flex;
+  margin-left: 200px;
+}
 
 .textblok{
   margin: 30px;

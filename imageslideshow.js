@@ -7,7 +7,7 @@ function init()
     imgbck = document.getElementById('imgbck');
     imgArray = ['imageslideshow/foto1.jpg','imageslideshow/foto2.jpg',];
     curImg = 0;
-    fadeOut(imgfrt,3000);
+    fadeOut(imgfrt,5000);
 }
 
 function setImgUrl(el,arr)
