@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Page Title</title>
+<title>Professional Identity</title>
 <link rel="stylesheet" href="style.css">
 <link rel="preconnect" href="https://fonts.gstatic.com"> 
 <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
@@ -41,21 +42,28 @@ body {
         </ul>
       </nav>
     </div>
-    <div class="main_professional_Identity">
+    <div class="main_professional_Identity" data-aos="fade-left" data-aos-delay="200">
 
         <h1> Professional Identity</h1>
+        <div class="leeruitkomst"> <h3> Je presenteert je professionele identiteit als media designer in een portfolio waarin je groei en keuzes gedocumenteerd staan.</h3></div>
      
 
         <h2> Focus branding</h2>
-        <img class= img-scotch&soda src="img/scotch&soda.png" alt="scotch&soda">
-        <a href="Branding Merijn van de Ven.pdf" target="blank" class="knop">Bekijk hier</a>
+        <img class= img-scotch&soda src="img/scotch&soda.png" alt="scotch&soda" data-aos="fade-left" data-aos-delay="200">
+        
+
+        <div class="container_pro1" data-aos="fade-left" data-aos-delay="200">
+          <div class="textblok">
         <h3> Opdracht</h3>
         <h4> De opdracht hierbij is dat je onderzoek doet naar een merk.
           in canvas staan 4 merken waaruit je kunt kiezen. Ik heb persoonlijk gekozen voor Scotch&soda, omdat ik kleding een interessant onderwerp vind.
           Je maakt een beknopt onderzoeksverslag van maximaal 4 pagina's waar ongeveer 16 uur werk in zit.
           Bij dit onderzoek maak je ook gebruik van 1 of 2 merkonderzoek methodes zoals de brand canvas of de brand identity prism
           Je bronvermelding moet voldoen aan de APA regels.
+       
         </h4>
+        </div>
+        <div class="textblok">
         <h3>Wat heb ik geleerd?</h3>
         <h4>Wat ik over het algemeen heb geleerd bij deze opdracht is hoe je onderzoek doet naar in dit geval een merk.
           En dat netjes weet te documenteren in word. 
@@ -63,11 +71,19 @@ body {
           Ik heb gebruik gemaakt van de brand canvas en dat heeft mij geholpen in wat ik te weten wil komen over een merk.
           En dat geordend vast kan leggen door middel van beelden en tekst.
         </h4>
+      </div>
+      <div class="textblok">
         <h3>Wat kon beter?</h3>
         <h4> Ik heb bij dit merkonderzoek veel gebruik gemaakt van 1 bron. Ik had daar wat meer in kunnen varieëren
           Ook bestaat mijn onderzoek voornamelijk uit tekst. Ik had wat meer afbeeldingen kunnen gebruiken om bepaalde informatie duidelijker naar voren te laten komen. Het is bovendien voor de lezer ook aangenamer om naar beeldmateriaal te kijken in plaats van een grote lap tekst
         </h4>
+        
+      </div>
+      </div>
+      <a href="Branding Merijn van de Ven.pdf" target="blank" class="knop">Bekijk hier</a>
+     
 <br> <br>
+<div class="advanced" data-aos="fade-left" data-aos-delay="200">
         <h2> Advanced Development</h2>
         <h3>Opdracht</h3>
         <h4>
@@ -76,6 +92,7 @@ body {
         </h4>
         <a href="Advanced development.pdf"target="blank" class="knop">Bekijk hier</a>
         <br> <br>
+      </div>
        
     </div>
   </div>
@@ -83,6 +100,10 @@ body {
   <div class="footer">
   
   </div>
-
+  <script src="animate_on_scroll.js"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+      AOS.init();
+    </script>
 </body>
 </html>

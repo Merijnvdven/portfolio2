@@ -62,10 +62,19 @@
 .container_des1{
   display: flex;
 }
+.container_des2{
+  display: flex;
+}
+.container_des3{
+  display: flex;
+}
 .container_dev2{
   margin-top: 50px;
 }
 .container_dev3{
+  display: flex;
+}
+.container_dev4{
   display: flex;
 }
 .container_res1{
@@ -82,6 +91,9 @@
 .container_com2{
   display: flex;
   margin-left: 200px;
+}
+.container_pro1{
+  display: flex;
 }
 
 .textblok{
@@ -105,6 +117,11 @@
     background: #EB3F3F; 
     color: white;
   }
+  .demos{
+    display: flex;
+    padding: 15px;
+    
+  }
 
  .main_interactievemedia {
     flex: 70%; /* Set the width of the main content */
@@ -114,6 +131,10 @@
 
   .main_interactievemedia h4 {
     font-weight: normal;
+  }
+  .leeruitkomst{
+    font-weight: normal;
+    color: grey;
   }
 
   .main_interactievemedia h1 {
@@ -154,6 +175,9 @@
     
 }
 .main_aboutme h2 {
+  text-align: center;
+}
+.main_professional_Identity h2{
   text-align: center;
 }
 .main_aboutme h3{
@@ -233,6 +257,9 @@ padding: 5px 5px;
   background-color: white; /* White background color */
   padding: 20px; /* Some padding */
   text-align: left;
+}
+.main_design h2{
+  text-align: center;
 }
 
 .main_design h4{
